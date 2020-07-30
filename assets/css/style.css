@@ -36,15 +36,48 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+/******* Minhas personalizações*******/
+
+.btn {
+
+  border-radius: 50px;
+  width: 140px !important;
+  margin-right: 10px;
+
+}
+
+.form-cpf  {
+
+  border-radius: 50px;
+  width: 250px !important;
+  margin-right: 10px;
+
+}
+
+.wow{
+
+  visibility: hidden;
+}
+
+#my_form {
+  display: none;
+}
+
+#my_form2 {
+  display: none;
+}
 
 .btn-round-lg{
   font-family: "Montserrat", sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   display: inline-block;
   padding: 10px 32px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
  }
 .btn-round{
   border-radius: 17px;
@@ -57,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 10px;
   padding-right: 10px;
 }
-
+/***************************************/
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -397,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/banner1.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -450,7 +483,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -475,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 32px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 0 20px 20px 0;
+  margin: 0 5px 5px 0;
   color: #fff;
 }
 
