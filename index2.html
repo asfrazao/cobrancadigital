@@ -18,12 +18,14 @@
           rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
+<!--    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">-->
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -39,46 +41,44 @@
 <body>
 
 <!-- ======= Header ======= -->
-<header id="header" class="fixed-top">
+<header id="header" class="fixed-top pt-0">
     <div class="container">
 
-        <div class="logo float-md-left">
-            <!-- Uncomment below if you prefer to use an text logo -->
-            <!--<h5><a href="index2.html">Cobrança Digital</a></h5>-->
+<!--        <div class="logo float-md-left">
+            &lt;!&ndash; Uncomment below if you prefer to use an text logo &ndash;&gt;
+            &lt;!&ndash;<h5><a href="index2.html">Cobrança Digital</a></h5>&ndash;&gt;
             <a href="index.html"><img src="assets/img/logoCobranca.jpg" alt="" class="img-fluid"></a>
-        </div>
+        </div>-->
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent mb-3">
-            <div class="container">
-                <!--<a class="navbar-brand" href="#">Cobrança Digital</a>-->
-<!--                <button class="navbar-toggler" data-toggle="collapse" data-target="#id">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent bg-mobile mb-3">
+
+            <div class="logo float-md-left">
+            <a href="index.html"><img src="assets/img/logoCobranca.jpg" alt="" class="img-fluid"></a>
+            </div>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#id">
                     <span class="navbar-toggler-icon"></span>
-                </button>-->
-                <!--<div id="my_form2" class="collapse navbar-collapse">-->
+                </button>
+                <div id="id" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#">Portal Parceiro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#">Sobre Nós</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#">Seja um parceiro</a>
                         </li>
                     </ul>
-
-                    <form class="form-inline">
+                    <form id="form_reader" class="form-inline">
                         <input type="text" id="my_form" class="form-cpf form-control mr-2 animate__animated animate__fadeInRight" placeholder="Digite seu CPF">
                         <button class="btn btn-outline-primary">Entrar</button>
                         <button id="btn_form" class="btn btn-outline-primary">Consulta CPF</button>
                     </form>
 
-               <!-- </div>-->
-            </div>
+                </div>
+
         </nav>
 
             </div>
@@ -91,9 +91,7 @@
 
 </header>
 
-<!-- #header -->
 
-<!-- ======= Intro Section ======= -->
 
 <section id="intro" class="clearfix">
     <div class="container" data-aos="fade-up">
@@ -104,11 +102,12 @@
 
         <div class="intro-info" data-aos="zoom-in" data-aos-delay="100">
             <h2>Negocie suas dividas sem<br>sair de casa e de forma<br>100% segura.</h2>
-<!--            <div>
-                <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                <a href="#services" class="btn-services scrollto">Our Services</a>
 
-            </div>-->
+            <form id="buscacpf" action="/" method='post'>
+            <input type="text" name="'pesquisa" placeholder='Digite seu CPF'>
+                <!--<a href="#about" class="btn-get-started scrollto">Get Started</a>-->
+                <button id="btninside" class="btn btn-outline-primary">Consulta CPF</button>
+            </form>
         </div>
 
     </div>
@@ -911,16 +910,24 @@
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
+<!--<script src="assets/vendor/jquery/jquery.min.js"></script>-->
+<!--<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+<!--<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>-->
+<!--<script src="assets/vendor/php-email-form/validate.js"></script>
 <script src="assets/vendor/counterup/counterup.min.js"></script>
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
 <script src="assets/vendor/venobox/venobox.min.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>-->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>

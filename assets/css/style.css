@@ -452,13 +452,30 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
 }
 
+
 @media (max-width: 991px) {
   #intro .intro-img {
     width: 80%;
     float: none;
     margin: 0 auto 25px auto;
+
   }
+
+  .bg-mobile{
+    background: #FFFFFF !important;
+
+  }
+
+  #form_reader{
+    display: none;
+
+  }
+
 }
+
+
+
+
 
 #intro .intro-info {
   width: 50%;
@@ -498,6 +515,42 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
+
+#buscacpf {
+  /*border: 2px solid #ccc;*/
+  display: inline-block;
+  padding: 4px;
+  background: #FFFFFF;
+  border-radius: 50px;
+
+
+
+}
+
+#buscacpf , input{
+  border: #FFFFFF;
+  background: #FFFFFF;
+
+
+
+}
+
+#buscacpf , button{
+  border: none;
+  color:#FFFFFF ;
+  padding: 4px 10px;
+
+
+
+}
+
+/*
+#btninside, button{
+
+  margin-right: 0px;
+}
+*/
+
 
 #intro .intro-info .btn-get-started, #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
