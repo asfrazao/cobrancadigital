@@ -10071,6 +10071,8 @@ button.bg-dark:focus {
 
 .font-weight-normal {
   font-weight: 400 !important;
+  line-height:2.0em;
+
 }
 
 .font-weight-bold {

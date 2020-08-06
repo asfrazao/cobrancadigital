@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /******* Minhas personalizações*******/
 
-.btn {
 
+.btn {
   border-radius: 50px;
   width: 140px !important;
   margin-right: 10px;
@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 10px;
 
 }
+
 
 .wow{
 
@@ -482,12 +483,14 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 
+
+
 @media (max-width: 991px) {
   #intro .intro-info {
     width: 80%;
     float: none;
     margin: auto;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -497,12 +500,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#intro .intro-info h2 {
+#intro .intro-info h2{
   color: #fff;
   margin-bottom: 40px;
-  font-size: 30px;
+  font-size:35px;
   font-weight: 700;
 }
+#intro .intro-info p{
+  color:#dee2e6;
+  margin-top: 20px;
+  font-size:30px;
+}
+
 
 #intro .intro-info h2 span {
   color: #74b5fc;
@@ -535,14 +544,37 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
 #buscacpf , button{
   border: none;
   color:#FFFFFF ;
-  padding: 4px 10px;
+  padding: 4px 4px;
+  padding-left: 1.5em;
+  padding-right: 5px;
 
 
 
 }
+.cpf-bottom{
+  padding-left: 1.0em;
+  line-height: 3.0em;
+  font-size: 13px;
+  color: #c8cbcf;
+}
+
+.cpf-digite{
+  margin-right: 9.5em ;
+}
+
+.btnInside{
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+}
+
 
 /*
 #btninside, button{
@@ -721,7 +753,7 @@ section {
 }
 
 #about .about-container .icon-box .icon {
-  float: left;
+  float: right;
   background: #fff;
   width: 64px;
   height: 64px;
@@ -1480,6 +1512,31 @@ section {
     transform: rotate(360deg);
   }
 }
+/*.apresentacao{*/
+/*  float: left;*/
+/*  width: 450px;*/
+
+/*}*/
+
+.sobre-nos img{
+  float: left;
+width: 450px;
+
+}
+
+.sobre-nos img, p{
+  display: inline-block;
+}
+
+.inicio{
+  font-weight: 400 !important;
+  line-height:1.5em;
+}
+
+.logo-cobranca-digital img{
+  float: right;
+  width: 150px;
+}
 
 @keyframes animate-loading {
   0% {
@@ -1490,6 +1547,25 @@ section {
   }
 }
 
+.img-sobre {
+  max-height: 70% !important;
+}
+
+.img-apresentacao{
+  float: left;
+  width: 400px;
+}
+
+.teste p{
+  color: red !important;
+}
+
+.img-noventa{
+  height: 30% !important;
+}
+
+.texto-apresentacao{
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
